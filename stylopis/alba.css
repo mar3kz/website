@@ -1,0 +1,340 @@
+body {
+    background-color: black;
+}
+table {
+width: 750px;
+border-collapse: collapse;
+margin: auto;
+position: relative;
+}
+th,
+td {
+border: 4px solid black; /* Silnější černý rám */
+padding: 10px; /* Více výplně pro lepší čitelnost */
+text-align: left;
+font-weight: bold;
+font-size: 30px;
+}
+th {
+background-color: #f2f2f2;
+}
+
+@font-face {
+/*proměnná*/
+font-family: "kendrick_lamar_font";
+src: url("../fonty/Titillium_Web/TitilliumWeb-SemiBold.ttf")
+    format("truetype"); /*formát truetype*/
+}
+.main {
+width: 1200px;
+margin: auto;
+text-align: center;
+position: relative;
+background-color: white;
+}
+.left_side_h {
+text-align: left;
+padding-left: 50px;
+margin-bottom: 0px;
+margin-top: -20px;
+}
+.h1_DAMN {
+text-align: left;
+padding-left: 50px;
+margin-bottom: 0px;
+margin-top: -20px;
+transform: translate(-21%, 40%);
+}
+.mr_morale {
+text-align: left;
+padding-left: 50px;
+margin-bottom: 0px;
+margin-top: -20px;
+transform: translate(-21%, +40%);
+}
+.overly_dedicated_h {
+text-align: left;
+padding-left: 50px;
+margin-bottom: 0px;
+margin-top: -20px;
+transform: translate(-21%, +30%);
+text-align: justify;
+}
+.hr_overly_dedicated {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 245px;
+float: left;
+margin-left: 45px;
+transform: translate(-122%, +140%);
+}
+.overly_dedicated_p {
+padding-left: 350px;
+text-align: justify;
+width: 450px;
+font-family: "kendrick_lamar_font";
+transform: translate(-37%, +10%);
+}
+.mr_morale_p {
+padding-left: 350px;
+text-align: justify;
+width: 450px;
+font-family: "kendrick_lamar_font";
+transform: translate(-37%, +15%);
+}
+.left_side_h_st {
+text-align: left;
+padding-left: 50px;
+margin-bottom: 0px;
+margin-top: 50px;
+}
+.right_side_h {
+text-align: left;
+padding-left: none;
+padding-right: 50px;
+padding-top: 50px;
+margin-bottom: 0px;
+transform: translate(-31%, -11%);
+margin-top: 0px;
+}
+.left_side_p {
+padding-left: 45px;
+text-align: left;
+width: auto;
+text-align: justify;
+font-family: "kendrick_lamar_font";
+background-color: rgb(127, 62, 211);
+}
+.right_side_p {
+margin-left: none;
+margin-right: 45px;
+text-align: justify;
+width: 450px;
+transform: translate(+150%, +35%);
+margin-top: 0px;
+font-family: "kendrick_lamar_font";
+}
+.mr_morale_p {
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+text-align: left;
+width: 450px;
+transform: none; /* odstranění transformace */
+margin-top: 0px;
+font-family: "kendrick_lamar_font";
+line-height: normal; /* přidání normální výšky řádku */
+}
+.DAMN_hr {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 115px;
+float: left;
+margin-left: 45px;
+transform: translate(-255%, +170%);
+}
+.hr_left,
+.hr_rigth {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 250px;
+float: left;
+margin-left: 45px;
+}
+
+.hr_rigth {
+float: right;
+margin-left: none;
+margin-right: 45px;
+margin-bottom: 0px;
+transform: translate(-90%, 90%);
+}
+.hr_section_80 {
+width: 150px;
+height: 5px;
+background-color: black;
+float: right;
+margin-left: none;
+margin-right: 45px;
+margin-bottom: 0px;
+transform: translate(-220%, 0%);
+}
+.nd_h1 {
+text-align: right;
+padding-left: none;
+padding-right: 50px;
+margin-bottom: 0px;
+transform: translate(-14%, -11%);
+margin-top: 0px;
+}
+.fourth_h1 {
+text-align: right;
+padding-left: none;
+padding-right: 50px;
+margin-bottom: 0px;
+transform: translate(-16%, -11%);
+margin-top: 0px;
+}
+.fifth_h1 {
+text-align: right;
+padding-left: none;
+padding-right: 50px;
+margin-bottom: 0px;
+transform: translate(-28%, +20%);
+margin-top: 0px;
+}
+
+.hr_st {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 280px;
+float: left;
+margin-left: 45px;
+}
+.hr_mr_morale {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 425px;
+float: left;
+margin-left: 45px;
+transform: translate(-70%, +300%);
+}
+.hr_nd {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 300px;
+float: right;
+margin-right: 220px;
+}
+.hr_rd {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 430px;
+float: left;
+margin-left: 45px;
+}
+
+.hr_4th {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 285px;
+float: right;
+margin-right: 235px;
+}
+.hr_5th {
+margin-top: 0px;
+height: 5px;
+background-color: black;
+border-color: rgb(0, 0, 0);
+width: 75px;
+float: left;
+margin-left: 45px;
+}
+.right_side_img_div {
+gap: 0px;
+align-items: flex-start;
+height: 350px;
+}
+.left_side_img_div {
+margin-bottom: 20px;
+gap: 0px;
+width: 1200px;
+height: 350px;
+}
+
+.left_alba {
+text-align: justify;
+text-align: left;
+margin-bottom: 75px;
+margin-top: -20px;
+transform: translate(0%, +20%);
+}
+.right_side_img {
+height: 250px;
+width: auto;
+float: right;
+margin-top: -220px;
+padding-right: 160px;
+transform: translate(+15%, -10%);
+}
+
+.left_side_img {
+height: 250px;
+width: auto;
+float: left;
+padding-left: 45px;
+object-fit: cover;
+transform: translate(+15%, -70%);
+}
+
+.untitled_unmastered_img {
+height: 250px;
+width: auto;
+float: left;
+padding-left: 45px;
+object-fit: cover;
+transform: translate(+15%, -80%);
+}
+.Overly_dedicated {
+height: 250px;
+width: auto;
+float: right;
+margin-top: -220px;
+padding-right: 160px;
+transform: translate(+15%, +0%);
+}
+.DAMN {
+height: 250px;
+width: auto;
+float: right;
+margin-top: -220px;
+padding-right: 160px;
+transform: translate(+15%, +0%);
+}
+
+.to_pimp_a_butterly {
+height: 250px;
+width: auto;
+float: right;
+margin-top: -220px;
+padding-right: 160px;
+transform: translate(+15%, +20%);
+}
+.DAMN_iframe {
+transform: translate(-10%, +10%);
+}
+.Section80_iframe {
+transform: translate(-69%, +35%);
+padding-bottom: 20px;
+}
+.Ignorance_is_bliss {
+transform: translate(-10%, +10%);
+}
+.Wesleys_theory {
+transform: translate(-10%, +10%);
+}
+.maad_city {
+transform: translate(-69%, +60%);
+}
+.mr_morale_i {
+transform: translate(-10%, +10%);
+}
+.untitled_unmastered {
+transform: translate(-69%, +40%);
+}

@@ -1,0 +1,277 @@
+@font-face {
+/*proměnná*/
+font-family: "kendrick_lamar_font";
+src: url("../fonty/Titillium_Web/TitilliumWeb-SemiBold.ttf")
+    format("truetype"); /*formát truetype*/
+}
+.kendrick_h1 {
+font-family: "kendrick_lamar_font", sans-serif; /*sans-serif, pokud se nenačte kendrick_lamar_h1, tak se načte sans-serif*/
+position: absolute;
+justify-content: center;
+display: inline-block;
+transform: translate(-45%, -70%);
+font-size: 80px;
+color: white;
+}
+.kendrick_h1_div {
+position: absolute;
+top: 2%; /* Posunutí nahoru o polovinu výšky rodiče */
+left: 47%; /* Posunutí doleva o polovinu šířky rodiče */
+}
+
+.lamar_h1 {
+font-family: "kendrick_lamar_font", sans-serif; /*sans-serif, pokud se nenačte kendrick_lamar_h1, tak se načte sans-serif*/
+position: absolute;
+justify-content: center;
+display: inline-block;
+transform: translate(-20%, -20%);
+font-size: 80px;
+color: white;
+}
+
+.kendrick_h1_div {
+position: absolute;
+top: 5%; /* Posunutí nahoru o polovinu výšky rodiče */
+left: 53%; /* Posunutí doleva o polovinu šířky rodiče */
+}
+
+body {
+background-color: rgb(0, 0, 0);
+}
+.main {
+width: 1200px;
+margin: auto;
+text-align: center;
+position: relative;
+}
+
+.main_obrazek {
+width: 1200px;
+}
+
+.icon_ig,
+.icon_x,
+.icon_fb,
+.icon_spotify,
+.icon_yt {
+width: 50px;
+height: 50px;
+position: absolute;
+left: 50px;
+}
+
+.icon_ig {
+top: 75px;
+}
+.icon_x {
+top: 140px;
+}
+.icon_fb {
+top: 205px;
+}
+.icon_spotify {
+top: 255px;
+}
+.icon_yt {
+top: 325px;
+}
+
+.icon_spotify {
+width: 75px;
+height: 75px;
+left: 37px;
+}
+.icon_yt {
+filter: grayscale(100%) brightness(0);
+}
+
+.changing_color {
+/*mix-blend-mode: darken;*/
+position: absolute;
+left: 100px;
+}
+
+.obrazky_menu {
+width: 1200px;
+background-color: rgb(255, 255, 255);
+position: relative;
+padding: 0px;
+}
+
+.left_side_h {
+text-align: left;
+padding-left: 50px;
+margin-bottom: 0px;
+margin-top: -20px;
+}
+
+.left_side_h_st {
+text-align: left;
+padding-left: 50px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+.right_side_h {
+text-align: right;
+padding-left: none;
+padding-right: 50px;
+margin-bottom: 0px;
+transform: translate(-31%, -11%);
+margin-top: 0px;
+}
+.left_side_p {
+margin-left: 45px;
+width: 450px;
+}
+.right_side_p {
+margin-left: none;
+margin-right: 45px;
+width: 450px;
+transform: translate(+150%, +25%);
+margin-top: 0px;
+}
+
+.hr_left,
+.hr_rigth {
+margin-top: 0px;
+height: 5px;
+width: 250px;
+float: left;
+margin-left: 45px;
+}
+
+.hr_rigth {
+float: right;
+margin-left: none;
+margin-right: 45px;
+margin-bottom: 0px;
+transform: translate(-90%, 90%);
+}
+.left_side_img {
+width: 30%;
+height: 20%;
+float: left;
+margin-top: -220px;
+padding-left: 45px;
+object-fit: cover;
+}
+.right_side_img {
+width: 30%;
+float: right;
+margin-top: -220px;
+padding-right: 160px;
+}
+.right_side_img_div {
+gap: 0px;
+align-items: flex-start;
+height: 250px;
+}
+.left_side_img_div {
+margin-bottom: 20px;
+gap: 0px;
+width: 1200px;
+height: 250px;
+}
+.left_side_img_aktualni_prace {
+height: 200px;
+width: auto;
+float: left;
+margin-top: -220px;
+padding-left: 45px;
+padding-top: 50px;
+}
+
+.other_site_zivot {
+    position: absolute;
+    float: right;
+    word-spacing: 15px;
+    font-size: 25px;
+    font-family: "kendrick_lamar_font";
+    right: 50px;
+    color:rgb(255, 255, 255);
+    transform: translate(-305%, 70%);
+}
+.other_site_novinky {
+    position: absolute;
+    float: right;
+    word-spacing: 15px;
+    font-size: 25px;
+    font-family: "kendrick_lamar_font";
+    right: 50px;
+    color:rgb(255, 255, 255);
+    transform: translate(-60%, 70%);
+}
+
+.other_site_alba {
+    position: absolute;
+    float: right;
+    word-spacing: 15px;
+    font-size: 25px;
+    font-family: "kendrick_lamar_font";
+    right: 50px;
+    color:rgb(255, 255, 255);
+    transform: translate(40%, 70%);
+}
+
+.angled-line {
+    display: inline-block;
+    width: 50px; /* délka čáry */
+    height: 4px; /* tloušťka čáry */
+    background-color: rgb(255, 255, 255); /* barva čáry */
+    transform: rotate(120deg); /* úhel otočení v stupních */
+    transform-origin: top left; /* bod, kolem kterého se bude element otáčet */
+    margin-left: 5px; /* mezera mezi textem a čárou */
+    margin-right: 5px; /* mezera mezi čárou a dalším textem */
+    margin-top: 20px;
+    left: 935px;
+    position: absolute;
+}
+
+.angled-line_nd {
+    display: inline-block;
+    width: 50px; /* délka čáry */
+    height: 4px; /* tloušťka čáry */
+    background-color: rgb(255, 255, 255); /* barva čáry */
+    transform: rotate(120deg); /* úhel otočení v stupních */
+    transform-origin: top left; /* bod, kolem kterého se bude element otáčet */
+    margin-left: 5px; /* mezera mezi textem a čárou */
+    margin-right: 5px; /* mezera mezi čárou a dalším textem */
+    margin-top: 20px;
+    left: 1012px;
+    position: absolute;
+}
+.angled-line_rd {
+    display: inline-block;
+    width: 50px; /* délka čáry */
+    height: 4px; /* tloušťka čáry */
+    background-color: rgb(255, 255, 255); /* barva čáry */
+    transform: rotate(120deg); /* úhel otočení v stupních */
+    transform-origin: top left; /* bod, kolem kterého se bude element otáčet */
+    margin-left: 5px; /* mezera mezi textem a čárou */
+    margin-right: 5px; /* mezera mezi čárou a dalším textem */
+    margin-top: 20px;
+    left: 1125px;
+    position: absolute;
+}
+.p_ostani_stranky {
+    color: white;
+}
+hr {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+div p {
+    text-align: justify;
+}
+a:link {
+    color:rgb(0, 0, 0);
+}
+a:hover {
+    color:blue;
+}
+a:visited {
+    color:white;
+}
+a:active {
+    color:rgb(104, 24, 179);
+}
